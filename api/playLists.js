@@ -7,7 +7,7 @@ import {
   getPlaylistById,
   getPlaylists,
 } from "#db/queries/playlists";
-import { createPlaylistTrack } from "../db/queries/playListTracks";
+import { createPlaylistTrack } from "../db/queries/playListTracks.js";
 import { getTracksByPlaylistId } from "#db/queries/tracks";
 
 router
